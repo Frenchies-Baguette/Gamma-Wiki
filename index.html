@@ -1,0 +1,79 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link
+    rel="stylesheet"
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+  />
+  <link rel="shortcut icon" type="image/png" href="/wiki/images/Icone_gamma.png"/>
+  <title>Gamma - A donation system</title>
+  <style>
+ 	 :root {
+   	 --docsifytabs-border-color: #ededed;
+  	  --docsifytabs-tab-highlight-color: purple;
+ 	 }
+  </style>
+</head>
+<body>
+  <nav></nav>
+  <div id="app">Please wait...</div>
+  <script>
+    window.$docsify = {
+	  themeColor: "#42b983",
+	  notFoundPage: true,
+	  name: '<strong>Gamma</strong>',
+	  nameLink: 'https://gamma.w2.websr.fr/wiki/#/README',
+	  externalLinkTarget: '_blank',
+      loadSidebar: true,
+	    tabs: {
+    	persist    : true,      // default
+    	sync       : true,      // default
+   	 	theme      : 'classic', // default
+    	tabComments: true,      // default
+    	tabHeadings: true       // default
+     	},
+		'flexible-alerts': {
+		  style: 'flat'
+		},
+		footer: {
+		  copy: '<span>&copy 2020 Gamma - A donation system.</span>',
+		  auth: 'Made with ❤️ by <a href="https://steamcommunity.com/id/arnaud_gustavo/" target="_blank">Arnaud</a> & <a href="https://steamcommunity.com/id/EpicGaby" target="_blank">Gabyfle</a>',
+		  pre: '<hr/>',
+		  style: 'text-align: left;',
+		  style: 'className'
+		},
+      repo: 'https://github.com/ArnaudDevelopper/GammaLang',
+      auto2top: true,
+      search: 'auto', // default
+
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+     },
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Plugin to copy code-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- Plugin for tab -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- docsify-themeable (latest v0.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <!-- docsify-example-panels (latest) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
