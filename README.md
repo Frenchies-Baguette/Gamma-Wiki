@@ -1,19 +1,19 @@
 ## Gamma - A donation System
 
-> Welcome to the official documentation of Gamma, the addon is avaible on [gmodstore](https://gmodstore.com).
+> Welcome to the official Gamma documentation, the addon is avaible on [gmodstore](https://gmodstore.com).
 
 ## What it is
 
-Gamma is an addon which provide an shop and many other features to your server. You can take a look on our gmodstore's page in order to be informed on all features.
+Gamma is an addon which provide a shop and many other features to your server. You can take a look to our gmodstore's page in order to in-deepth information about Gamma features.
 
 ## Wiki Usage
 
-!> **Important :** This wiki is reserved for users of Gamma. All of informations reported into this wiki are not avaible for other addons. If you want to get Gamma, take a look [here](https://gmodstore.com).
+ - **Important :** This wiki is reserved for Gamma users. Everything reported to this wiki may not be available with other addons.  If you want to get Gamma, take a look [here](https://gmodstore.com).
 
-Gamma's wiki described all different types of interaction you can have with the addon. In the sidebar, there is the table of contents where you will find every tips on Gamma.
+Gamma's wiki describe every different types of interaction you can have with the addon. Navigate throught content using the sidebar, which can also be used as a table of contents.
 
 ## Structure of Gamma
 
-?> **Information :** A good understanding of Gamma's structure is a must have if you want to do modifications which are not provided by the panel (Create a new language, create plugin,....).
+-  **Information :** A good understanding of Gamma's structure is **a must have** if you want to modify Gamma with the built-in systems provided by our system (create a new language, a plugin, a custom action...).
 
 Gamma is divided into 2 parts : Web and Lua. The web part is the shop and the lua one is for your server.
