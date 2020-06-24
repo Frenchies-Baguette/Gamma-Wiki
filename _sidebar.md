@@ -40,4 +40,4 @@
 - Issue & Improvement
 
   - [Report an issue](issue.md)
-  - [Submit an improvement](idea.md)
+  - [Submit an improvement](improvment.md)
